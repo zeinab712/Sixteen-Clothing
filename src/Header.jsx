@@ -1,12 +1,20 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 
 function Header() {
     const [menuOpen, setMenuOpen] = useState(false);
     const [activeTab, setActiveTab] = useState("Home");
 
+    useEffect(() => {
+        const savedTab = localStorage.getItem("activeTab");
+        if (savedTab) {
+            setActiveTab(savedTab);
+        }
+    }, []);
+
     const handleTabClick = (tab) => {
         setActiveTab(tab);
+        localStorage.setItem("activeTab", tab);
         setMenuOpen(false);
     };
 

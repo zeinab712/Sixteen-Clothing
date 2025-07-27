@@ -2,7 +2,7 @@ import React from "react";
 
 const Team = [
     {
-        src: "/person-01.png",
+        src: "person-01.png",
         name: "Johnny William",
         job: "CO-Founder",
         text: "As a co-founder, Johnny brings vision and leadership that drive the team forward with innovation and purpose.",
@@ -15,7 +15,7 @@ const Team = [
         ),
     },
     {
-        src: "/person-02.png",
+        src: "person-02.png",
         name: "George Walker",
         job: "Product Expert",
         text: "George ensures every product meets the highest standards, combining functionality with sleek design.",
@@ -27,7 +27,7 @@ const Team = [
         ),
     },
     {
-        src: "/person-03.png",
+        src: "person-03.png",
         name: "Ahmed Taha",
         job: "Chief Marketing",
         text: "Ahmed leads creative marketing campaigns that connect with audiences and elevate brand presence.",
@@ -39,7 +39,7 @@ const Team = [
         ),
     },
     {
-        src: "/person-04.png",
+        src: "person-04.png",
         name: "Maryam Khaled",
         job: "Product Specialist",
         text: "Maryam specializes in finding the right product solutions tailored to customer needs and preferences.",
@@ -52,7 +52,7 @@ const Team = [
         ),
     },
     {
-        src: "/person-05.png",
+        src: "person-05.png",
         name: "Michael Soft",
         job: "General Manager",
         text: "Michael manages operations with a focus on efficiency and teamwork, ensuring seamless delivery of excellence.",
@@ -68,7 +68,7 @@ const Team = [
         ),
     },
     {
-        src: "/person-06.png",
+        src: "person-06.png",
         name: "Karry Pitcher",
         job: "Product Photographer",
         text: "Karry captures the essence of every product through stunning visuals that highlight quality and detail.",
@@ -104,7 +104,7 @@ const Team = [
         <>
         <div className="relative mt-20 h-[50vh] uppercase ">
             <img
-            src="/about-heading.jpg"
+            src="about-heading.jpg"
             alt="products-heading"
             className=" w-full h-full object-cover"
             />
@@ -128,7 +128,7 @@ const Team = [
                 {/* Left Side => Image */}
                 <div className="left-side w-full lg:w-1/2">
                 <img
-                    src="/feature-image.jpg"
+                    src="feature-image.jpg"
                     alt="feature"
                     className="w-full h-auto object-cover rounded-lg"
                 />
@@ -215,7 +215,7 @@ const Team = [
             </div>
         </div>
 
-        <div className="relative bg-fixed bg-center bg-cover bg-[url('/services-bg.jpg')] min-h-[600px] py-16 px-4 flex flex-col items-center justify-center">
+        <div className="relative bg-fixed bg-center bg-cover bg-[url('services-bg.jpg')] min-h-[600px] py-16 px-4 flex flex-col items-center justify-center">
             {/* Overlay */}
             <div className="absolute inset-0 bg-black/30 z-0"></div>
 

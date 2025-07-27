@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 const products = [
   {
-    src: "/product_01.jpg",
+    src: "product_01.jpg",
     title: "Winter Leather Boots",
     price: "$20",
     text: "Perfect for cold days and rainy weather. Made from high-quality materials that last.",
@@ -16,7 +16,7 @@ const products = [
     category: "featured",
   },
   {
-    src: "/product_02.jpg",
+    src: "product_02.jpg",
     title: "Padded Wool Coat",
     price: "$30",
     text: "Keeps you warm and stylish all winter long. Ideal for daily wear or travel.",
@@ -29,7 +29,7 @@ const products = [
     category: "flash",
   },
   {
-    src: "/product_03.jpg",
+    src: "product_03.jpg",
     title: "Soft Winter Scarf",
     price: "$40",
     text: "Add a cozy touch to your outfit with this soft scarf. Available in many trendy colors.",
@@ -42,7 +42,7 @@ const products = [
     category: "featured",
   },
   {
-    src: "/product_04.jpg",
+    src: "product_04.jpg",
     title: "Sock Snowman Toy",
     price: "$50",
     text: "A creative handmade snowman made of socks. Great for decoration or a cute gift.",
@@ -56,7 +56,7 @@ const products = [
     category: "last",
   },
   {
-    src: "/product_05.jpg",
+    src: "product_05.jpg",
     title: "Knitted Wool Sweater",
     price: "$60",
     text: "Stay warm and comfortable with this soft wool sweater. Simple design fits all styles.",
@@ -73,7 +73,7 @@ const products = [
     category: "flash",
   },
   {
-    src: "/product_06.jpg",
+    src: "product_06.jpg",
     title: "Snowman Christmas Decor",
     price: "$70",
     text: "Decorate your home with a magical snowman touch. Lightweight and easy to place anywhere.",
@@ -104,7 +104,7 @@ const Products = () => {
     <>
       <div className="relative mt-20 h-[50vh] uppercase ">
         <img
-          src="/products-heading.jpg"
+          src="products-heading.jpg"
           alt="products-heading"
           className=" w-full h-full object-cover"
         />
