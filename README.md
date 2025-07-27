@@ -1,4 +1,4 @@
-# 👗 Sixteen Clothing
+# Sixteen Clothing
 
 **Sixteen Clothing** is a simple multi-page website built using **React** and **Vite**, created to practice and apply **React Router**. The project simulates an online clothing store with multiple pages and smooth navigation.
 
