@@ -215,7 +215,7 @@ const Team = [
             </div>
         </div>
 
-        <div className="relative bg-fixed bg-center bg-cover bg-[url('/services-bg.jpg')] min-h-[600px] py-16 px-4 flex flex-col items-center justify-center">
+        <div className="relative bg-fixed bg-center bg-cover bg-[url('services-bg.jpg')] min-h-[600px] py-16 px-4 flex flex-col items-center justify-center">
             {/* Overlay */}
             <div className="absolute inset-0 bg-black/30 z-0"></div>
 
